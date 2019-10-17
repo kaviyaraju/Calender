@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+div.heading {
+  height: 327px;
+  width: 350px;
+  border:1px solid;
+}
+
+div.table {
+  padding-top: 12px;
+  height: 100px;
+  width: 350px;
+}
+
+
+table.students {
+  text-align: center;
+  border: 1px solid;
+  width: 100%;
+  
+}
+
+table.students th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  border: 1px solid;
+  height: 10px;
+  width: 30px;
+}
+
+table.students td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  border: 1px solid;
+  height: 10px;
+  width: 30px;
+}
+
+#currentdate {
+  color: blue;
+}
